@@ -25,7 +25,7 @@ public class CollabEditTest  {
 			
 			String[] elemSplitted = elem.split("\\n");
 			int count = 0;
-	         for(String a : elemSplitted) {
+	        for(String a : elemSplitted) {
 		        if (!a.isEmpty()) {
 		            count++;		        
 		      }
