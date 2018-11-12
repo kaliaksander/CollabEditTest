@@ -37,7 +37,7 @@ public class CollabEditTest  {
 		public void setUp() {
 			driver  = utilities.DriverFactory.open("chrome");
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); 
-			String webURL =  "http://collabedit.com/j6xhj";//"http://sdettraining.com/trguitransactions/AccountManagement.aspx";
+			String webURL =  "http://collabedit.com/j6xhj";  //"http://sdettraining.com/trguitransactions/AccountManagement.aspx";
 			driver.get(webURL);
 			//Make alert to be dissmissed
 			driver.switchTo().alert().dismiss();
